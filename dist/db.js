@@ -1,7 +1,10 @@
-import { Low, Memory } from 'lowdb';
-const db = new Low(new Memory());
-db.data || (db.data = {
-    posts: []
-});
-export { db };
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.db = void 0;
+const db = {
+    data: {
+        posts: []
+    }
+};
+exports.db = db;
 //# sourceMappingURL=db.js.map
